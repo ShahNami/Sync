@@ -1,0 +1,7 @@
+#JSGF V1.0;
+
+grammar politeness;
+
+// Body
+public <startPolite> = (please | kindly | could you | sync | hey) *;
+public <endPolite> = [ please | thanks | thank you | appreciate it];

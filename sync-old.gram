@@ -1,0 +1,22 @@
+/**
+public <basicCmd> = <startPolite>* <command> <endPolite>*;
+public <syncCmd> = <startPolite>* <singleCommand> <endPolite>*;
+
+<command> = <action> <object>;
+<singleCommand> = <singleAction>;
+
+<singleAction> = play <music>|<next>|<previous>|stop song|hush|screenshot|switch|tell me|<dateTime>|wake up|shut up|shht|turn off|go to sleep|calculate|hello;
+<action> = /10/ open |/9/ check |/8/ show|/6/ print |/5/ close |/1/ delete |/1/ move;
+
+<object> = [the|a|me] [new|current] [my|your] (commands|window|file|menu|<program>|display|desktop|<socialMedia>|<weather>);
+
+<socialMedia> = /10/ facebook|/7/ mail|/3/ twitter;
+<browser> = /10/ chrome|/5/ firefox|/1/ internet;
+<files> = /10/ google drive|/5/ downloads|/1/ dropbox;
+<program> = (<browser>|paint|commandprompt|netbeans|explorer|notepad|word|excel|powerpoint|explorer);
+<dateTime> = (what) (date|time|day) (it is|is it);
+<weather> = (weather)+ [for|in] (me|today|tomorrow|two days|three days);
+<music> = [some] (music|rock|classic|pop);
+<next> = (next|skip) (song|page|tab);
+<previous> = (previous) (song|page|tab);
+*/

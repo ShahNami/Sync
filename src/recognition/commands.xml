@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AllCommands>
+    <Command>
+        <name>hush</name>
+        <descr></descr>
+        <Execute value="playMusic">
+            <Param value="pause"></Param>
+        </Execute>
+    </Command>
+    <Command>
+        <name>stop music</name>
+        <descr></descr>
+        <Execute value="playMusic">
+            <Param value="stop"></Param>
+        </Execute>
+    </Command>
+    <Command>
+        <name>previous song</name>
+        <descr></descr>
+        <Execute value="playMusic">
+            <Param value="previous"></Param>
+        </Execute>
+    </Command>
+    <Command>
+        <name>skip song</name>
+        <descr></descr>
+        <Execute value="playMusic">
+            <Param value="next"></Param>
+        </Execute>
+    </Command>
+    <Command>
+        <name>some music</name>
+        <descr></descr>
+        <Execute value="playMusic">
+            <Param value="play"></Param>
+        </Execute>
+    </Command>
+     <Command>
+        <name>screenshot</name>
+        <descr></descr>
+        <Execute value="hotKey">
+            <Param value="screenshot"></Param>
+        </Execute>
+    </Command>
+    <Command>
+        <name>close window</name>
+        <descr></descr>
+        <Execute value="hotKey">
+            <Param value="close"></Param>
+        </Execute>
+    </Command>
+    <Command>
+        <name>switch</name>
+        <descr></descr>
+        <Execute value="hotKey">
+            <Param value="switch"></Param>
+        </Execute>
+    </Command>
+    <Command>
+        <name>show my desktop</name>
+        <descr></descr>
+        <Execute value="hotKey">
+            <Param value="desktop"></Param>
+        </Execute>
+    </Command>
+    <Command>
+        <name>out of the way</name>
+        <descr></descr>
+        <Execute value="show">
+            <Param value="0"></Param>
+        </Execute>
+    </Command>
+    <Command>
+        <name>come back</name>
+        <descr></descr>
+        <Execute value="show">
+            <Param value="1"></Param>
+        </Execute>
+    </Command>
+    <Command>
+        <name>show commands</name>
+        <descr></descr>
+        <Execute value="showCommands"></Execute>
+    </Command>
+    <Command>
+        <name>hello</name>
+        <descr></descr>
+        <Answer value="Hello sir."></Answer>
+        <Answer value="I'm here sir."></Answer>
+        <Answer value="What can I do for you?"></Answer>
+    </Command>
+    <Command>
+        <name>thank you</name>
+        <descr></descr>
+        <Answer value="You're welcome sir."></Answer>
+        <Answer value="No problem."></Answer>
+    </Command>
+    <Command>
+        <name>what date</name>
+        <descr></descr>
+        <Execute value="tellTheDate">
+            <Param value="date"></Param>
+        </Execute>
+    </Command>
+    <Command>
+        <name>what time</name>
+        <descr></descr>
+        <Execute value="tellTheDate">
+            <Param value="time"></Param>
+        </Execute>
+    </Command>
+    <Command>
+        <name>what day</name>
+        <descr></descr>
+        <Execute value="tellTheDate">
+            <Param value="day"></Param>
+        </Execute>
+    </Command>
+    <Command>
+        <name>wake up</name>
+        <descr></descr>
+        <Answer value="I'm here sir."></Answer>
+        <Answer value="Yes sir."></Answer>
+        <Answer value="Yes?"></Answer>
+        <Execute value="wakeup"></Execute>
+    </Command>
+    <Command>
+        <name>go to sleep</name>
+        <descr></descr>
+        <Answer value="Alright sir."></Answer>
+        <Answer value="As you wish sir."></Answer>
+        <Answer value="I will let you be then."></Answer>
+        <Execute value="sleep"></Execute>
+    </Command>
+    <Command>
+        <name>shut up</name>
+        <descr></descr>
+        <Answer value="Sorry sir."></Answer>
+        <Answer value="Excuse me sir."></Answer>
+        <Answer value="Going to sleep mode."></Answer>
+        <Execute value="sleep"></Execute>
+    </Command>
+    <Command>
+        <name>shht</name>
+        <descr></descr>
+        <Answer value="Sorry sir."></Answer>
+        <Answer value="Excuse me sir."></Answer>
+        <Answer value="Going to sleep mode."></Answer>
+        <Execute value="sleep"></Execute>
+    </Command>
+    <Command>
+        <name>calculate</name>
+        <descr></descr>
+    </Command>
+    <Command>
+        <name>turn off</name>
+        <descr></descr>
+        <Answer value="Turning system off."></Answer>
+        <Answer value="Very well, turning system off."></Answer>
+        <Answer value="Goodbye sir."></Answer>
+        <Execute value="cleanShutdown"></Execute>
+    </Command>
+    <Command>
+        <name>weather for me</name>
+        <descr></descr>
+        <Execute value="weather">
+            <Param value="0"></Param>
+        </Execute>
+    </Command>
+    <Command>
+        <name>weather for today</name>
+        <descr></descr>
+        <Execute value="weather">
+            <Param value="0"></Param>
+        </Execute>
+    </Command>
+    <Command>
+        <name>weather for tomorrow</name>
+        <descr></descr>
+        <Execute value="weather">
+            <Param value="1"></Param>
+        </Execute>
+    </Command>
+    <Command>
+        <name>weather be like in two days</name>
+        <descr></descr>
+        <Execute value="weather">
+            <Param value="2"></Param>
+        </Execute>
+    </Command>
+    <Command>
+        <name>weather be like in three days</name>
+        <descr></descr>
+        <Execute value="weather">
+            <Param value="3"></Param>
+        </Execute>
+    </Command>
+</AllCommands>

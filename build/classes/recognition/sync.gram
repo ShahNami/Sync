@@ -1,0 +1,39 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for SYNC example
+ */
+
+grammar sync;
+
+public <simpleCommand> = <simpleCmd>;
+
+//out of the way
+//come back
+//what time/day/date is it
+//check the weather for me/for tomorrow/for today
+//what will the weather be like in two days/three days
+//play some music/rock/pop/classic [music]
+//hush
+//stop music
+//skip song
+//previous song
+//go to sleep
+//wake up
+//shht
+//shut up
+//turn off
+//screenshot
+//switch
+//calculate
+//close window
+//hello
+//thank you
+//show my desktop
+//show commands
+
+<simpleCmd> = show commands|out of the way|come back|what <time>|check the <weather>|what will the <weather2>|play <music>|stop music|skip song|previous song|hush|go to sleep|wake up|shut up|shht|turn off|show my desktop|close window|switch|screenshot|calculate|hello|thank you;
+<time> = (date|time|day) (is it);
+<weather> = (weather) (for me|for tomorrow|for today);
+<weather2> = (weather be like in) (two days|three days);
+<music> = (some) (music|rock|pop|classic) [music];
