@@ -28,4 +28,4 @@
 
 ## License
 
-    - Apache v2 License
+    - Apache License
