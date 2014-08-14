@@ -8,7 +8,7 @@
 
 ## Motivation
 
-    Private use
+    -
 
 ## Installation
 
