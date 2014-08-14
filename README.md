@@ -1,6 +1,6 @@
 ## Synopsis
 
-    Sync is a AI project i've been working on, it is still unfinished. A lot of work still needs to be done.
+    Sync is a AI project i've been working on, it is still unfinished. A lot of work has to be done.
 
 ## Code Example
 
