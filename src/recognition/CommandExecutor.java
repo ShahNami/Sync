@@ -7,8 +7,6 @@
 package recognition;
 
 import java.awt.AWTException;
-import java.awt.Color;
-import java.awt.Component;
 import java.awt.Frame;
 import java.awt.Rectangle;
 import java.awt.Robot;
@@ -34,9 +32,6 @@ import java.util.List;
 import java.util.Map;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
-import javax.swing.JLabel;
-import javax.swing.JTable;
-import javax.swing.table.TableCellRenderer;
 import javax.xml.bind.JAXBException;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;

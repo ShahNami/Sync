@@ -33,7 +33,7 @@ public class Sync {
         SyncListener listener = SyncListener.getInstance();
         while(true){
             if(!listener.isListening()){
-                display.setInfo(Constants.speepMessage);
+                display.setInfo(Constants.sleepMessage);
             } else {
                 display.setInfo(Constants.listenMessage);
             }

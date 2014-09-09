@@ -247,7 +247,7 @@ public class Display extends javax.swing.JFrame {
     private void cbSleepModeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbSleepModeActionPerformed
         try {
             if(cbSleepMode.isSelected()){
-                lblInfo.setText(Constants.speepMessage);
+                lblInfo.setText(Constants.sleepMessage);
                 SyncListener.getInstance().setListening(false);
             } else {
                 lblInfo.setText(Constants.listenMessage);

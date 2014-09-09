@@ -17,7 +17,7 @@ public interface Constants {
      * DISPLAY.JAVA
      */
     String loadMessage = "Loading...";
-    String speepMessage = "Sleeping...";
+    String sleepMessage = "Sleeping...";
     String listenMessage = "Listening...";
     String errorParseMessage = "Could not parse the command.";
     
