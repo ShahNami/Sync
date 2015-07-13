@@ -1,6 +1,10 @@
 ## Synopsis
 
     Sync is a AI project i've been working on, it is still unfinished. A lot of work has to be done.
+    
+## Usage
+
+    Users of this content are fully responsible for any consequences resulting from their use of the content. The information in this repository is provided for educational or information purposes only; it is not intended to be a substitute for professional advice, whether medical, legal, or otherwise
 
 ## Code Example
 
